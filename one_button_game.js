@@ -23,7 +23,7 @@ function draw() {
     updateConfetti();
     displayConfetti();
 
-    if (score >= 20) {
+    if (score >= 30) {
       gameOver = true;
     }
 
@@ -149,3 +149,4 @@ function resetGame() {
   bgColor = color(30);
   createTargets();
 }
+
