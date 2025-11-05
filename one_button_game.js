@@ -73,7 +73,7 @@ function displayScore() {
 // ---------- CONFETTI SYSTEM ----------
 
 function spawnConfetti(x, y) {
-  for (let i = 0; i < 30; i++) { // number of pieces
+  for (let i = 0; i < 20; i++) { // number of pieces
     confetti.push({
       x: x,
       y: y,
@@ -149,5 +149,3 @@ function resetGame() {
   bgColor = color(30);
   createTargets();
 }
-
-
